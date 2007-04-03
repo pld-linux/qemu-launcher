@@ -41,7 +41,7 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT
 
 %find_lang %{name}
-rm -f $RPM_BUILD_ROOT%{_docdir}/qemu-launcher
+rm -fr $RPM_BUILD_ROOT%{_docdir}/qemu-launcher
 
 %clean
 rm -rf $RPM_BUILD_ROOT
