@@ -1,3 +1,4 @@
+%include	/usr/lib/rpm/macros.perl
 Summary:	A Gtk front-end for the Qemu x86 PC emulator
 #Summary(pl.UTF-8):
 Name:		qemu-launcher
