@@ -3,9 +3,9 @@ Summary:	A Gtk front-end for the Qemu x86 PC emulator
 #Summary(pl.UTF-8):
 Name:		qemu-launcher
 Version:	1.7.3
-Release:	0.1
+Release:	1
 License:	GPL v2
-Group:		Applications
+Group:		Applications/Emulators
 Source0:	http://download.gna.org/qemulaunch/1.7.x/%{name}_%{version}.tar.gz
 # Source0-md5:	4245ec2f86576795a4e1f5fdc6a5153d
 URL:		http://emeitner.f2o.org/qemu_launcher/
