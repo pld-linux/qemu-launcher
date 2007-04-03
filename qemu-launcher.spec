@@ -8,7 +8,8 @@ License:	GPL v2
 Group:		Applications
 Source0:	http://download.gna.org/qemulaunch/1.7.x/%{name}_%{version}.tar.gz
 URL:		http://emeitner.f2o.org/qemu_launcher/
-BuildRequires:	libxml2-progs	
+BuildRequires:	libxml2-progs
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
