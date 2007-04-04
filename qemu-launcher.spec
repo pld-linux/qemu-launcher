@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	A Gtk front-end for the Qemu x86 PC emulator
-#Summary(pl.UTF-8):
+Summary:	A GTK+ front-end for the Qemu x86 PC emulator
+Summary(pl.UTF-8):	Interfejs GTK+ dla emulatora PC x86 Qemu
 Name:		qemu-launcher
 Version:	1.7.3
 Release:	1
@@ -31,7 +31,24 @@ qemu-launcher 'Configuration name'
 Note that you still need a graphical environment to do this, unless
 the virtual machine is set to start in non-graphics mode.
 
-#%description -l pl.UTF-8
+%description -l pl.UTF-8
+Qemu Launcher udostępnia graficzny interfejs do wszystkich
+podstawowych i wielu zaawansowanych opcji emulatora komputera QEMU.
+Pozwala na tworzenie, zapisywanie i uruchamianie wielu konfiguracji
+maszyny wirtualnej oraz tworzenie i konwersję obrazów dysków.
+
+Qemu Launcher wykorzystuje tryb pełnej emulacji systemu QEMU, co
+pozwala na uruchamianie niemodyfikowanego systemu operacyjnego na
+wirtualnym sprzęcie.
+
+Qemu Launcher obsługuje także uruchamianie maszyn wirtualnych z linii
+poleceń poprzez podanie nazwy konfiguracji:
+
+qemu-launcher 'Nazwa konfiguracji'
+
+Należy zauważyć, że do tego nadal potrzebne jest graficzne środowisko,
+chyba że maszyna wirtualna została skonfigurowana do uruchamiania bez
+trybu graficznego.
 
 %prep
 %setup -q
